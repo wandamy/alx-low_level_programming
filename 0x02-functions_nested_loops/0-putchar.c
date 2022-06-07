@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  *  * main - Entry point
  *   *
@@ -6,6 +6,7 @@
  */
 int main(void)
 {
-write(1, "_putchar\n", 57);
+write(1, "_putchar", 57);
+write(1, "\n", 57);
 return (0);
 }
