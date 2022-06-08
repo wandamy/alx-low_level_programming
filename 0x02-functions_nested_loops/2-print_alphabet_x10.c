@@ -3,11 +3,11 @@
  * print_alphabet_x10 - prints the alphabet ten times in lowercase
  * return 0 - always success
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 char c = 'a';
-int j = '0';
-for (j = '0'; j <= '10'; j++)
+int j;
+for (j = 0; j <= 10; j++)
 {
 for (c = 'a'; c <= 'z'; c++)
 {
