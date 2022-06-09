@@ -10,11 +10,7 @@ for (c = 0; c < 10; c++)
 {
 for (x = 0; x <= 14; x++)
 {
-if (x > 9)
-{
-_putchar((y /10) + '0');
-}
-_putchar((y % 10) + '0');
+_putchar(x);
 }
 _putchar('\n');
 }
