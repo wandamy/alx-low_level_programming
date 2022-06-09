@@ -4,11 +4,9 @@
  * mul - multiplies two intergers a and b
  * @a: character argument
  * @b: character argument
- * Return: 0 success
+ * Return: result of the multiplication of a and b
  */
 int mul(int a, int b)
 {
-int j = a * b;
-_putchar(j);
-return (0);
+return ( a * b);
 }
