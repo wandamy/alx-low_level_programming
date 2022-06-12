@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * fizz_buzz - prints fizz, buzz of fizzbuzz depending on the condition
+ * main - entry point
+ * Return: 0 success
  */
 int main(void)
 {
@@ -18,4 +19,5 @@ printf("FizzBuzz");
 else
 printf("%d", c);
 }
+return (0);
 }
