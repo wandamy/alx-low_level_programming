@@ -11,8 +11,9 @@ if (n <= 0)
 {
 _putchar('\n');
 }
-for (c = 0; c < n; c++)
+else
 {
+for (c = 0; c < n; c++)
 _putchar(95);
 _putchar('\n');
 }
