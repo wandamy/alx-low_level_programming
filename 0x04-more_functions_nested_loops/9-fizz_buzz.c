@@ -1,9 +1,8 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * fizz_buzz - prints fizz, buzz of fizzbuzz depending on the condition
  */
-void fizz_buzz(void)
+int main(void)
 {
 int c;
 for (c = 1; c <= 100; c++)
