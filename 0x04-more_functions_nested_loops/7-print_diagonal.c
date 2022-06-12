@@ -5,7 +5,7 @@
  */
 void print_diagonal(int n)
 {
-char c;
+int c;
 int i;
 if (n <= 0)
 _putchar('\n');
