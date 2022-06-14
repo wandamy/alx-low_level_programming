@@ -6,6 +6,6 @@
 */
 int _strlen(char *s)
 {
-unsigned char name[];
-*s = strlen(name):
+char name[17];
+*s = strlen(name);
 }
