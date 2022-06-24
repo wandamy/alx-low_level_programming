@@ -5,7 +5,7 @@
  * @argv: argument vector
  * Return: program name
  */
-int main(int argc __attribute__((unused)), char* argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-printf ("%S\n", *argv);
+printf ("%s\n", *argv);
 }
